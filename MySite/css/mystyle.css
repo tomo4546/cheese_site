@@ -1,0 +1,249 @@
+body{
+    font-family: "MS P明朝","平成明朝",serif;
+    padding: 0;
+}
+
+p{
+    font-size: 100%;
+    margin-top: 7px;
+    line-height: 1.8;
+}
+
+h1{
+    padding-left: 7px;
+    margin-bottom: 20px;
+}
+
+h2{   
+    border-left: 8px solid #181717;
+    padding-left: 7px;
+    margin: 0;
+}
+
+footer{
+    text-align: right;
+    border-top: 5px solid #000;
+}
+
+article{
+    position: relative;
+    width: 867px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.catch{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: #fff;
+    text-shadow:0 5px 10px #333;
+}
+
+.black{
+    color: #000;
+    font-size: 100%;
+}
+
+.red{
+    color: #036;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.8;
+    font-size: 90%;
+}
+
+header{
+    background-color: #181717;
+}
+
+ul time{
+    border-radius: 2px;
+    background-color: #999;
+    color: #000;
+}
+
+nav ul{
+    font-weight: bold;
+    text-align: right;
+    padding-top: 39px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #fff;
+    color: #fff;
+}
+
+header img{
+    float: left;
+}
+
+article{
+    clear: both;
+    width: 867px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+head img{
+    border-radius: 5px;
+}
+
+.header-in{
+    width: 867px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dummy{
+    margin-top: -20px;
+}
+
+.sub-h2{
+    background-image: linear-gradient(to left, #dcdcdf, #dcdcdf)
+}
+
+.knowledge{
+    list-style-image: url(../image/icon.png);
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+ol li{
+    display: inline;
+    margin-right: 5px;
+    font-size: 90%;
+}
+
+ol{
+    padding-left: 0;
+}
+
+section img{
+    float: left;
+}
+
+.sub-section{
+    clear: both;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover{
+    color: #fc0;
+}
+
+ul li{
+    clear: both;
+}
+
+.black ul a{
+    text-decoration: none;
+    color: #000;
+}
+
+.black ul a:hover{
+    color: #fc0;
+}
+
+section li{
+    padding-top: 10px;
+}
+
+.sentou{
+    text-align: right;
+}
+
+.sentou a{
+    font-size: smaller;
+    text-decoration: none;
+    color: #000;
+}
+
+.sentou a:hover{
+    text-decoration: none;
+    color: #fc0;
+}
+
+.artisanal{
+    border-radius: 10px;
+}
+
+.top a{
+    text-decoration: none;
+    color: #000;
+}
+
+.top a:hover{
+    color: #fc0;
+}
+
+
+footer small a{
+    color: #000;
+}
+
+footer small a:hover{
+    text-decoration: none;
+    color: #fc0;
+}
+
+.umasou{
+    margin-left: 108px;
+}
+
+footer p{
+    font-size: 90%;
+}
+
+.tart{
+    padding-top: 10px;
+}
+
+/* 959px以下の場合 */
+@media(max-width:850px){
+headerimg{
+    float: none;
+}
+nav ul{
+    text-align: left;
+    padding: 0;
+}
+article{
+    width: auto;
+}
+article img{
+    max-width: 100%;
+    height: auto;
+}
+}
+
+/* プリント出力 */
+@media print{
+    .catch{
+        color: #000;
+        text-shadow: none;
+    }
+}
+
+
+/* 600以下の場合 */
+@media(max-width:600px){
+nav li{
+    font-size: 75%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+}
